@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index Page</title>
+</head>
+<body>
+
+	<h1>Enter New Employee Data</h1>
+	<form action="EmpServlet" method="post" align="center">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name" required></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="emailid" required></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pwd" required></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="sbmitbtn" value="Save"></td>
+			</tr>
+		</table>
+
+		<a href="LoginServlet">Login</a>
+
+	</form>
+</body>
+</html>
