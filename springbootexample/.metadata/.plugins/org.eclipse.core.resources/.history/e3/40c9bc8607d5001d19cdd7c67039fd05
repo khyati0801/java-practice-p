@@ -1,0 +1,51 @@
+package com.onerivet.service.impl;
+
+import com.onerivet.entity.Employee;
+import com.onerivet.entitydto.EmployeeDto;
+import com.onerivet.repository.EmployeeRepository;
+import com.onerivet.service.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeRepository employeerepository;
+
+	public static Employee EmployeeDtotoEmpoyee(Employee employee2) {
+		
+		Employee employee=new Employee();
+		employee.setId(employee2.getId());
+		employee.setFirstName(employee2.getFirstName());
+		employee.setLastName(employee2.getLastName());
+		employee.setCity(employee2.getCity());
+		employee.setPassword(employee2.getPassword());
+		employee.setPhoneNumber(employee2.getPhoneNumber());
+		return employee;
+		
+	}
+	
+	public static EmployeeDto EmployeetoEmployeeDto(Employee employee) {
+		EmployeeDto employeedto=new EmployeeDto();
+		
+		employeedto.setId(employee.getId());
+		employeedto.setFirstName(employee.getFirstName());
+		employeedto.setLastName(employee.getLastName());
+		employeedto.setCity(employee.getCity());
+		employeedto.setPassword(employee.getPassword());
+		employeedto.setPhoneNumber(employee.getPhoneNumber());
+		return employeedto;
+		
+	}
+	
+	
+	@Override
+	public String save(Employee employee) {
+		employeerepository.save(EmployeeServiceImpl.EmployeeDtotoEmpoyee(employee))
+		return null;
+	}
+
+	
+	
+
+
+	
+
+}

@@ -1,0 +1,30 @@
+package com.onerivet.service.impl;
+
+import com.onerivet.entity.Employee;
+import com.onerivet.entitydto.EmployeeDto;
+import com.onerivet.repository.EmployeeRepository;
+import com.onerivet.service.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeRepository employeerepository;
+
+	public static Employee EmployeeDtotoEmpoyee(Employee employee) {
+		
+		
+		return employee;
+		
+	}
+	@Override
+	public String save(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+
+
+	
+
+}

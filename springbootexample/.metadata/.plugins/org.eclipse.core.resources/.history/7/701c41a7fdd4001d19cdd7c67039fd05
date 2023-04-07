@@ -1,0 +1,7 @@
+package com.onerivet.service.impl;
+
+import com.onerivet.service.EmployeeService;
+
+public class Userserviceimpl implements EmployeeService {
+
+}

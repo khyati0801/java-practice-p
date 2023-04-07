@@ -1,0 +1,19 @@
+package com.onerivet.service.impl;
+
+import com.onerivet.entity.Employee;
+import com.onerivet.entitydto.EmployeeDto;
+import com.onerivet.repository.EmployeeRepository;
+import com.onerivet.service.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeRepository employeerepository;
+
+	
+	@Override
+	public String save(EmployeeDto employee) {
+		employeerepository.save(employee);
+		return "Employee details saved";
+	}
+
+}

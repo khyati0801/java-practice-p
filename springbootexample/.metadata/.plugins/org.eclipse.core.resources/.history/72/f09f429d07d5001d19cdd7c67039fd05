@@ -1,0 +1,9 @@
+package com.onerivet.service;
+
+import com.onerivet.entity.Employee;
+
+public interface EmployeeService {
+
+	public String save(Employee employee);
+	
+}

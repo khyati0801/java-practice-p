@@ -1,0 +1,12 @@
+package com.onerivet.service;
+
+
+import com.onerivet.entity.Employee;
+import com.onerivet.entitydto.EmployeeDto;
+
+public interface EmployeeService {
+
+	public String save(EmployeeDto employee);
+	public EmployeeDto getAll(Employee employee);
+	
+}

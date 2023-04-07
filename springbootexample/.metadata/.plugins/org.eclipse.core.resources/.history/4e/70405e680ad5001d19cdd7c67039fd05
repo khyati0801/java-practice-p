@@ -1,0 +1,23 @@
+package com.onerivet.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.onerivet.entitydto.EmployeeDto;
+import com.onerivet.service.EmployeeService;
+
+
+@RestController
+@RequestMapping("/employee")
+public class EmployeeController {
+	
+	EmployeeService employeeservice;
+	
+	
+	@PostMapping("/save")
+	public String saveemployee(EmployeeDto employeedto) {
+		return employeeservice.save(employeedto);	
+	}
+
+}
