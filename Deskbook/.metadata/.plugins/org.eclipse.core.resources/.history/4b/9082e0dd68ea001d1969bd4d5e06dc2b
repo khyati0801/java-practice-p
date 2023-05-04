@@ -1,0 +1,5 @@
+package com.onerivet.deskbook.controller;
+
+public class UserController {
+
+}

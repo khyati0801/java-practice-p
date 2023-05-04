@@ -1,0 +1,20 @@
+package com.onerivet.deskbook.entity;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name="City")
+public class City {
+	
+	private int cityId;
+	private String cityName;
+
+}

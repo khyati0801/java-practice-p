@@ -1,0 +1,24 @@
+package com.onerivet.deskbook.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.onerivet.deskbook.model.payload.EmployeeDto;
+import com.onerivet.deskbook.repository.EmployeeRepository;
+import com.onerivet.deskbook.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private EmployeeRepository employeereposotory;
+	
+	@Override
+	public List<EmployeeDto> getAllEmployee() {
+		
+		return null;
+	}
+
+}

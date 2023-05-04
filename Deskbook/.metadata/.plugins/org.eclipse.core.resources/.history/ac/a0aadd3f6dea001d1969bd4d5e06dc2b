@@ -1,0 +1,14 @@
+spring:
+ datasource:
+  url: jdbc:sqlserver://localhost:1433;databasename=DeskBookDev;encrypt=false
+  username: sa
+  password: Admin@123
+  
+ jpa:
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+   naming:
+    physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+ 
+  

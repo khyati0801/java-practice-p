@@ -1,0 +1,36 @@
+1682941069429	Delete element
+1682941112786	Delete element
+1683113503591	Copy package
+1683113515454	Delete element
+1683113576557	Rename package 'com.onerivet.deskbook.entitys'
+1683113659391	Rename package 'com.onerivet.deskbook.Model'
+1683113689565	Copy package
+1683113722603	Rename package 'com.onerivet.deskbook.model.entity'
+1683113763616	Move compilation units
+1683113820670	Copy compilation units
+1683113845583	Delete elements
+1683113930100	Copy compilation units
+1683113962279	Rename type 'City'
+1683113994207	Rename type 'Citydto'
+1683114006897	Rename type 'Column'
+1683114016592	Rename type 'Designation'
+1683114028789	Rename type 'Floor'
+1683114037229	Rename type 'ModeOfWork'
+1683114045896	Rename type 'Role'
+1683114054332	Rename type 'Seat'
+1683114065623	Rename type 'SeatConfiguration'
+1683114073310	Rename type 'User'
+1683114085883	Rename type 'WorkingDay'
+1683114204697	Delete element
+1683114216833	Delete element
+1683192081764	Rename type 'Column'
+1683192345963	Rename type 'User'
+1683192896120	Rename type 'Seat'
+1683196244385	Delete element
+1683196262662	Rename package 'com.onerivet.deskbook.entity'
+1683196297297	Rename type 'UserDto'
+1683196376036	Rename type 'UserRepository'
+1683197026188	Rename type 'UserService'
+1683197042253	Rename type 'UserServiceImpl'
+1683199716073	Rename type 'UserController'
+1683200100924	Rename type 'SeatDto'
